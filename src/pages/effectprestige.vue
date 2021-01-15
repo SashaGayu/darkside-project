@@ -44,7 +44,7 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  z-index: 3;
+  z-index: 2;
 }
 
 .image-size:hover:after {
