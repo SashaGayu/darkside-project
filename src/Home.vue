@@ -7,6 +7,7 @@
     <menu-bar/>
     <effect-prestige/>
     <content-lg/>
+    <slider/>
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import ContImage from "@/pages/cont-image"
 import MenuBar from "@/pages/menu-bar"
 import EffectPrestige from "@/pages/effectprestige"
 import ContentLg from "@/pages/content-lg"
+import Slider from "@/pages/slider"
 
 export default {
   name: "Home",
@@ -28,7 +30,8 @@ export default {
     ContImage,
     MenuBar,
     EffectPrestige,
-    ContentLg
+    ContentLg,
+    Slider
   }
 }
 </script>

@@ -36,29 +36,29 @@ body, html {
   height: 100%;
 }
 
-.image-size {
+.image-size  {
   height: 100%;
   width: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
   z-index: 2;
 }
 
-.image-size:hover:after {
-  content: " ";
-  transition-duration: 2s;
-  transition-property: background-color;
+.image-size:after {
   position: absolute;
   z-index: 1;
-  background-color: rgba(0,0,0,.5);
   cursor: pointer;
+  content: " ";
   top: 0;
   width: 100%;
   height: 100%;
   left: 0;
+  transition: all 0.3s;
+  background-color: rgba(0,0,0,.5);
+  opacity: 0;
+}
+
+.image-size:hover:after {
+  opacity: 1;
 }
 
 
